@@ -1,20 +1,20 @@
-class queue {
+class stack {
   constructor() {
-    this.data = []
+    this.data = [];
   }
-  enqueue(value) {
-    this.data.push(value)
+  push(value) {
+    this.data.push(value);
   }
-  dequeue() {
-    return this.data.shift()
+  pop() {
+    return this.data.pop();
   }
 }
 
 // Test cases:
-const myQueue = new queue
-myQueue.enqueue(3)
-myQueue.enqueue(6)
-myQueue.enqueue(9)
-console.log(myQueue.dequeue()) // 3
-console.log(myQueue.dequeue()) // 6
-console.log(myQueue.dequeue()) // 9
+const myStack = new stack();
+mystack.push(3);
+myStack.push(6);
+myStack.push(9);
+console.log(myStack.pop()); // 9
+console.log(myStack.pop()); // 6
+console.log(myStack.pop()); // 3
