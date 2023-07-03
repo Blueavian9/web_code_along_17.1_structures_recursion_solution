@@ -1,4 +1,3 @@
-// stack
 
 class stack {
   constructor(value) {
