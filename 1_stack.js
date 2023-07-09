@@ -1,4 +1,3 @@
-
 class stack {
   constructor(value) {
     this.data = [];

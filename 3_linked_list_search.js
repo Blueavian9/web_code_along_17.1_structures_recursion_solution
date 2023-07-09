@@ -1,4 +1,4 @@
-class listNode {
+class listNodet {
   constructor(value) {
     this.value = value;
     this.next = null;
@@ -16,7 +16,7 @@ function search(head, value) {
 }
 
 // Test cases:
-const head = new listNode(3);
+const head = listNode(3);
 head.next = new listNode(6);
 head.next = new listNode(9);
 console.log(search(head, 3)); // true
