@@ -1,7 +1,9 @@
 // DSA practice 1:
-// linked list search
+// Linked list search
+
 // DSA sample practice 2:
 // closure
+
 // DSA sample practice 3:
 // find the 9th num
 function solution(n) {
@@ -21,4 +23,4 @@ console.log(solution(3)); // Output: 2
 console.log(solution(6)); // Output: 8
 
 // DSA practice 4:
-// Reverse Linklist
+// Reverse Linked list
