@@ -20,3 +20,7 @@ function search(head, value) {
 const head = new listNode(3);
 head.next = new listNode(6);
 head.next = new listNode(9);
+
+
+
+
