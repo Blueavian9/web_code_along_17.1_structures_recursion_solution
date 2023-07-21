@@ -36,5 +36,28 @@ Since there are five valid ways to split s, the answer is 5.      function solut
 
 
 function solution(s) {
-    
+    let count  = 0;
+    counst len = s.length;
+
+    for (let i = 1; i < len - 1; i++) {
+        for (let j = i + 1; j < len; j++) {
+            const a = s.slice(0, i); 
+            const b = s.slice(i, j);
+            const c = s.slice(j);
+
+            const ab = a + b;
+            const bc = b + c;
+            const ca = c + a; 
+
+            if (ab !== bc && ab !== ca && bc !== ca) {
+                count++;
+            }
+        }
+    }
+
+    return count; 
 }
+
+const s = "xzxzx";
+console.log(solution(s)); // Output: 5
+
