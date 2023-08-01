@@ -21,4 +21,4 @@ function isPalindrome(str) {
   return str === reversed;
 }
 
-console.log(solution("abcdc")); // Output: "abcdcba"
+console.log(solution(""));
