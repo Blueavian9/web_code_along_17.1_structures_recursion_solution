@@ -45,3 +45,18 @@ counter = 0;
 //  fib(1)    fib(0)     *we are skipping entire branches of this tree with this optimization technique with the help of Dynamic Programming.
 //
 //
+
+
+
+
+/* The "Bottom Up" Approach 
+
+function fib(n) {
+  const numbers = [1, 1];
+  for (let i = 2; i < n + 1; i++) {
+    numbers.push(numbers[i - 2] + numbers[i - 1]);
+  }
+  return numbers[n];
+}
+
+*/
