@@ -10,11 +10,10 @@ class stack {
   }
 }
 
-
 const myStack = new stack();
 myStack.push(3);
 myStack.push(6);
 myStack.push(9);
-console.log(myStack.pop(9));
-console.log(myStack.pop(6));
-console.log(myStack.pop(3));
+console.log(myStack.pop(9)); //
+console.log(myStack.pop(6)); //
+console.log(myStack.pop(3)); //
