@@ -16,11 +16,7 @@ function search(head, value) {
   return search(head.next, value);
 }
 
-//Test cases:
+// Test cases:
 const head = new listNode(3);
 head.next = new listNode(6);
 head.next = new listNode(9);
-
-
-
-

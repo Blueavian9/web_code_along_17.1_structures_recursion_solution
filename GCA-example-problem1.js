@@ -35,21 +35,20 @@ Problem Breakdown:
             If 'num' is even: 
                 Add 'num' to 'sum' 
             Return 'sum' 
-    */
-
-function sumOfEvenNumbers(sortedArray) {
+            
+            function sumOfEvenNumbers(sortedArray) {
   // Initialize the sum to 0
   let sum = 0;
-
+  
   // Iterate through the sortedArray
   for (let num of sortedArray) {
     // Check if the number is even (divisible by 2 with no remainder)
     if (num % 2 === 0) {
       // Add the even number to the sum
-      sum += num;
+      return (sum += num);
     }
   }
-
+  
   // Return the final num
   return sum;
 }
@@ -58,3 +57,32 @@ function sumOfEvenNumbers(sortedArray) {
 console.log(sumOfEvenNumbers([1, 2, 3, 4, 5, 6])); // Output: 12 (2 + 4 + 6)
 console.log(sumOfEvenNumbers([2, 4, 6, 8, 10])); // Output: 30 (2 + 4 + 6 + 8 + 10)
 console.log(sumOfEvenNumbers([1, 3, 5, 7])); // Output: 0 (no even numbers in the array).
+
+*/
+
+/* 
+Problem 2: 
+Problem Statement:
+"Write a function that accepts a string and returns the count of vowels 
+and consonants in the string." 
+Identify: 
+The key elements of the problem
+The required output
+The possible inputs
+*/
+
+
+
+
+function solution(a, b) {
+  while (a !== b) {
+    return false;
+  }
+  if (a > b) {
+    return true;
+  }
+
+  // Test cases:
+  console.log(solution(2, 6)); // false
+  console.log(solution(2, 3)); // true
+}

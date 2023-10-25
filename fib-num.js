@@ -36,13 +36,17 @@ var fib = function(n) {
     return cache[n];
 };
 
-let a = fib(100);
+// Example usage: 
+let a = fib(100); // Calculate the 100th Fibonacci number and store it in 'a'.
 
 /* 
 PLAN: 
-1. 
-2. 
-3.
+1. Initialize the cache array with the first two Fibonacci numbers.
+2. Create the fib function with the given input n.
+3a. Check if n is less than the length of the cache array.
+3b If it is, return the cached result directly.
+4a. Calculate Fibonacci numbers using a loop and store in cache.
+4b. Return the Fibonacci number at index n. 
 */
 
 // Base case is the condition where you don't call the function again.
