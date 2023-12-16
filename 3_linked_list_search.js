@@ -18,8 +18,6 @@ function search(head, value) {
 // Test cases:
 const head = new listNode(3);
 head.next = new listNode(6);
-head.next.next = new listNode(9);
-// The linked list is 3 -> 6 -> 9 (3 is the head of the list).
-console.log(search(head, 3)); // true
-console.log(search(head, 0)); // false
-console.log(search(head, 9)); // true
+head.next.net = new listNode(9);
+// The linked list is: 3 -> 6 -> 9 (3 is the head of the list)
+// & (9 is the tail of the list).
