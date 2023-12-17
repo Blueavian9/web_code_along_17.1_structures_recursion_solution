@@ -63,7 +63,8 @@ console.log(sumOfEvenNumbers([1, 3, 5, 7])); // Output: 0 (no even numbers in th
 /* 
 Problem 2: 
 Problem Statement:
-"Write a function that accepts a string and returns the count of vowels 
+"Write a function that accepts a string and 
+returns the count of vowels 
 and consonants in the string." 
 Identify: 
 The key elements of the problem

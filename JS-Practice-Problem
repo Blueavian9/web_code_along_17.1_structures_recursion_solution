@@ -1,6 +1,8 @@
 /*
-You are given a string of "s". Your task is to count the number of ways of splitting "s" into three non-empty parts a, b, and c (s = a + b + c) in such a way that a + b, b + c and c + a are all different strings.
-
+You are given a string of "s". Your task is to
+count the number of ways of splitting "s" into 
+three non-empty parts a, b, and c (s = a + b + c)
+in such a way that a + b, b + c and c + a are all different strings.
 
 NOTE: + refers to string concatenation.
 
@@ -17,7 +19,7 @@ If a = "xz", b = "x" and c = "zx", then a + b = b + c = "xzx". Hence, this split
 If a = "xz", b = "xz" and c = "x", then all a + b = "xzxz", b + c = "xzx" and c + a = xxz are different.
 If a = "xzx", b = "z" and c = "x", then all a + b = "xzxz", b + c = "zx" and c + a = xxzx are different.
 Since there are five valid ways to split s, the answer is 5.      function solution(s) {
- /*
+/*
   0. the number of ways to split the string: 5
   1- 3 + NON EMPTY parts (a, b, c) 
   2- a + b, b + c and c + a are all different strings 
@@ -30,7 +32,7 @@ Since there are five valid ways to split s, the answer is 5.      function solut
    a + b => xzxz
    b + c => zx
    c + a => xxzx
- */
+*/
 }
 */
 
